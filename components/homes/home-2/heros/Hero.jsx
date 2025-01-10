@@ -7,7 +7,7 @@ export default function Hero() {
       {/* Home Section Content */}
       <div className="home-content pt-20 pt-md-0 text-center">
         <h2 className="section-title-tiny font-alt mb-40 mb-sm-30 wow fadeInUp">
-          Wire Bridger
+          WIREBRIDGER
         </h2>
         <h1 className="hs-title-4 font-alt mb-60 mb-sm-40">
           <AnimatedText text="HVAC Innovation Specialists" />

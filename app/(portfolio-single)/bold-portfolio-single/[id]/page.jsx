@@ -18,8 +18,8 @@ const ParallaxContainer = dynamic(
 
 // Update metadata to reflect your product
 export const metadata = {
-  title: "Wire Bridge WB1000 || HVAC Product Details",
-  description: "Detailed information on the Wire Bridge WB1000 HVAC solution.",
+  title: "WIREBRIDGER WB1000 || HVAC Product Details",
+  description: "Detailed information on the WIREBRIDGER WB1000 HVAC solution.",
 };
 
 export default function BoldPortfolioSinglePage({ params }) {
@@ -41,7 +41,7 @@ export default function BoldPortfolioSinglePage({ params }) {
           <ParallaxContainer
             className="page-section bg-dark-alpha-30 parallax-5 light-content"
             style={{
-              backgroundImage: "url(/assets/images/demo-bold/section-bg-2.jpg)",
+              backgroundColor: "#111111",
             }}
             id="home"
           >
@@ -52,7 +52,7 @@ export default function BoldPortfolioSinglePage({ params }) {
                     className="wow charsAnimInLong-1"
                     data-splitting="chars"
                   >
-                    <AnimatedText text="Wire Bridge WB1000" />
+                    <AnimatedText text="WIREBRIDGER WB1000" />
                   </span>
                 </h1>
               </div>
@@ -138,7 +138,7 @@ export default function BoldPortfolioSinglePage({ params }) {
                       </ul>
                       <h2 className="h4 mb-3 mt-4">Overview</h2>
                       <p>
-                        The Wire Bridge WB1000 is an all-in-one HVAC wiring
+                        The WIREBRIDGER WB1000 is an all-in-one HVAC wiring
                         solution designed to reduce installation time and
                         simplify system upgrades. It offers versatile
                         configuration options for seamless retrofits, ensuring
@@ -226,7 +226,7 @@ export default function BoldPortfolioSinglePage({ params }) {
                     <div className="mb-30 wow fadeInUp" data-wow-offset={0}>
                       <Image
                         src="/assets/images/demo-bold/portfolio/wb1000.png"
-                        alt="Wire Bridge WB1000 - Diagram"
+                        alt="WIREBRIDGER WB1000 - Diagram"
                         width={1200}
                         height={819}
                       />
@@ -234,7 +234,7 @@ export default function BoldPortfolioSinglePage({ params }) {
                     <div className="mb-30 wow fadeInUp">
                       <Image
                         src="/assets/images/demo-bold/portfolio/1.png"
-                        alt="Wire Bridge WB1000 - Image 2"
+                        alt="WIREBRIDGER WB1000 - Image 2"
                         width={1200}
                         height={819}
                       />

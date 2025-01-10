@@ -144,7 +144,7 @@ export const portfolios2 = [
   {
     id: 1,
     imageUrl: "/assets/images/demo-bold/portfolio/wb1000.png",
-    title: "Wire Bridge WB1000",
+    title: "WIREBRIDGER WB1000",
     description: "",
     link: "bold-portfolio-single.html",
     categories: ["coils", "wiring"],

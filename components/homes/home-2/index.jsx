@@ -43,10 +43,10 @@ export default function Home2({ onePage = false, dark = false }) {
                   <span className="text-outline">About</span>
                 </h2>
                 <p className="section-text mb-60 mb-md-40 mb-sm-30">
-                  <span className="section-title-inline">Who?</span> At Wire
-                  Bridger, we specialize in providing innovative solutions to
-                  enhance and simplify HVAC system upgrades and retrofits. Our
-                  products are designed to improve the efficiency and
+                  <span className="section-title-inline">Who?</span> At
+                  WIREBRIDGER, we specialize in providing innovative solutions
+                  to enhance and simplify HVAC system upgrades and retrofits.
+                  Our products are designed to improve the efficiency and
                   functionality of existing systems, making us a key player in
                   the HVAC industry. We focus on delivering high-quality
                   solutions that meet the diverse needs of our customers.

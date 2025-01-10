@@ -1,23 +1,23 @@
 export const stepsData = [
   {
     number: "1",
-    title: "Assessment",
-    text: "Our team conducts a comprehensive assessment of your existing HVAC system to identify the best upgrade path and ensure compatibility with our innovative solutions.",
+    title: "Company Overview",
+    text: "Wire Bridger is a forward-thinking company dedicated to simplifying and modernizing HVAC wiring. We develop intuitive, cost-effective solutions that help both professionals and homeowners overcome complex wiring challenges, ensuring maximum efficiency and reliability."
   },
   {
     number: "2",
-    title: "Solution Design",
-    text: "We design a tailored solution that leverages our multipurpose controllers to enhance your system’s functionality without extensive rewiring or system overhaul.",
+    title: "Flagship Product: WB 1000",
+    text: "Our WB 1000 device is designed to eliminate the need for extensive rewiring. By adding two extra control wires or providing a common connection (C), it enables seamless integration with most 24VAC HVAC systems—offering a simple, plug-and-play approach to advanced thermostat control."
   },
   {
     number: "3",
-    title: "System Integration",
-    text: "Our experienced technicians integrate our controllers into your existing setup, ensuring seamless functionality and improved efficiency with minimal downtime.",
+    title: "Our Mission & Values",
+    text: "At Wire Bridger, our mission is to deliver innovative technology that drives energy efficiency while maintaining user-friendly installation. We value excellence, customer satisfaction, and robust product testing—ensuring our solutions meet high safety and performance standards."
   },
   {
     number: "4",
-    title: "Testing & Optimization",
-    text: "Following installation, we rigorously test the system to ensure optimal performance and fine-tune any settings for enhanced efficiency and reliability.",
+    title: "Support & Contact",
+    text: "We offer detailed installation guides and responsive customer service to help you get the most out of your WB 1000. If you have any questions or need technical assistance, please contact us at 1 (833) 889-9473 (WIRE), email Info@wirebridger.com, or visit www.wirebridger.com."
   },
 ];
 

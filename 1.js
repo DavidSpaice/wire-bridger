@@ -58,7 +58,7 @@
                     margin: 0,
                   }}
                 >
-                  WIRE BRIDGER
+                  WIREBRIDGER
                 </h1>
               </div>
               <div className="dark-mode-logo" style={{ width: "100%" }}>

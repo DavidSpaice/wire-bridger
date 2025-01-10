@@ -13,7 +13,7 @@ const ParallaxContainer = dynamic(
   }
 );
 export const metadata = {
-  title: "Wire Bridger || Seamless HVAC Solutions",
+  title: "WIREBRIDGER || Seamless HVAC Solutions",
   description:
     "Experience innovative HVAC solutions designed to streamline installations and retrofits.",
 };
