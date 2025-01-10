@@ -18,7 +18,7 @@ export default function Contact({ heading }) {
           </h2>
           <p className="section-text mb-60 mb-md-40 mb-sm-30">
             <span className="section-title-inline">How?</span> Have a question
-            about our HVAC solutions? Drop us a line or give us a call. We're
+            about our HVAC wire solutions? Drop us a line or give us a call. We're
             always ready to discuss new projects and ideas.
           </p>
           <div>

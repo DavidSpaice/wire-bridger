@@ -45,7 +45,7 @@ export default function Home2({ onePage = false, dark = false }) {
                 <p className="section-text mb-60 mb-md-40 mb-sm-30">
                   <span className="section-title-inline">Who?</span> At
                   WIREBRIDGER, we specialize in providing innovative solutions
-                  to enhance and simplify HVAC system upgrades and retrofits.
+                  to enhance and simplify HVAC wire system upgrades and retrofits.
                   Our products are designed to improve the efficiency and
                   functionality of existing systems, making us a key player in
                   the HVAC industry. We focus on delivering high-quality
@@ -124,7 +124,7 @@ export default function Home2({ onePage = false, dark = false }) {
               <p className="section-text mb-60 mb-md-40 mb-sm-30">
                 <span className="section-title-inline">FAQs</span> Here are some
                 frequently asked questions to help you understand our innovative
-                HVAC solutions better.
+                HVAC wire solutions better.
               </p>
               <div className="local-scroll">
                 {onePage ? (

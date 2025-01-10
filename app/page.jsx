@@ -13,9 +13,9 @@ const ParallaxContainer = dynamic(
   }
 );
 export const metadata = {
-  title: "WIREBRIDGER || Seamless HVAC Solutions",
+  title: "WIREBRIDGER || Seamless HVAC wire Solutions",
   description:
-    "Experience innovative HVAC solutions designed to streamline installations and retrofits.",
+    "Experience innovative HVAC wire solutions designed to streamline installations and retrofits.",
 };
 export default function Home2MainDemoOnepage() {
   return (

@@ -34,23 +34,59 @@ export const blogs1 = [
 export const blogs2 = [
   {
     id: 4,
-    imgSrc: "/assets/images/demo-modern/blog/1.jpg",
-    title: "Natura Insects Series: Crafting Insects Made by Flowers",
+    imgSrc: "/assets/images/demo-modern/blog/2.png",
+    title: "Effortless Air Conditioner Upgrades with WIREBRIDGER",
     date: "December 3, 2023",
+    authorName: "HVAC Insider", // or whichever author you prefer
+    content: [
+      "Upgrading HVAC systems doesn't have to mean a full-scale renovation or extensive rewiring. WIREBRIDGER provides a streamlined way to improve your air conditioners and heat pumps without the inconvenience of major cabling work.",
+
+      "Enhance Your HVAC System Without New Wiring\n\nInstalling additional equipment or upgrading your existing HVAC system often involves the labor-intensive process of running new cables. This can lead to increased costs, time, and disruption. WIREBRIDGER offers a modern solution that removes the need for additional wiring, enabling quick and hassle-free system enhancements. Whether you're upgrading a thermostat, adding advanced features, or modernizing your air conditioning system, WIREBRIDGER simplifies the process.",
+
+      "Simplify Heat Pump Installations\n\nConverting to a heat pump is a smart choice for energy efficiency, but traditional installation methods can be time-consuming. WIREBRIDGER helps streamline the conversion process by eliminating complex wiring tasks. With this innovative tool, technicians can complete heat pump installations in significantly less time, ensuring faster project completion and less downtime for homeowners.",
+
+      "Save on Installation Costs\n\nThe cost of labor can be a major factor in HVAC projects. WIREBRIDGE's efficient design allows technicians to complete upgrades and installations without the need for costly rewiring, cutting labor expenses. By speeding up the process, it also helps contractors complete more projects in less time, improving overall productivity and reducing costs for both clients and professionals.",
+
+      "The WIREBRIDGER Advantage\n\nWIREBRIDGER is the ultimate tool for quick, cost-effective HVAC upgrades. Designed to make installations easier for professionals and homeowners, it ensures high-quality results without the hassle of traditional methods. Here's what sets WIREBRIDGER apart:\n\n- **Less Intrusion**: Avoid invasive procedures like cutting walls or ceilings to run new wires.\n- **Efficiency Boost**: Complete tasks faster and more effectively.\n- **Budget-Friendly**: Reduce material and labor costs while maintaining excellent performance.\n- **Wide Applications**: Suitable for air conditioning systems, heat pumps, and advanced HVAC upgrades.",
+
+      "With WIREBRIDGER, you can upgrade your HVAC system seamlessly and efficiently. Say goodbye to complicated wiring projects and hello to a smarter, faster way to enhance your home's comfort. Choose WIREBRIDGER today and revolutionize how you approach HVAC upgrades!",
+    ],
     rellaxSpeed: -1,
     rellaxPercentage: 0.37,
   },
   {
     id: 5,
-    imgSrc: "/assets/images/demo-modern/blog/2.jpg",
-    title: "Minimalistic Design Concept for Balmain Online Store",
+    imgSrc: "/assets/images/demo-modern/blog/2.png",
+    title:
+      "WIREBRIDGER WB1000: A Comprehensive Wiring Solution for HVAC Systems",
     date: "December 2, 2023",
+    authorName: "HVAC Insider",
+    content: [
+      "The WIREBRIDGER WB1000 is an innovative HVAC accessory designed to streamline wiring configurations and enhance system functionality. Its ability to add two additional control wires between a thermostat and an indoor or outdoor unit makes it an essential tool for technicians looking to save time and reduce installation complexities. Whether you're upgrading an existing system or installing a new one, the WB1000 delivers flexibility, reliability, and efficiency.",
+      "Key Features and Benefits\n\n**Simplified Wiring**: Adds two additional control wires to bridge the gap between your thermostat and HVAC units, ensuring seamless communication and enhanced functionality.\n\n**Universal Compatibility**: Designed to work with all 24V AC heating and cooling systems, making it a versatile solution for any HVAC setup.\n\n**Provides Common Connection (C)**: Easily establish a common wire connection, resolving compatibility issues with modern thermostats.\n\n**Time-Saving Installation**: Reduce installation time with a straightforward setup process that minimizes the need for extensive rewiring.",
+      "Technical Specifications\n\n- **Transformer Voltage**: 22-28V\n- **Switch Current**: 2A\n- **Maximum Distance**: 30 meters (1181.1 inches)\n- **Transmitter Size**: 30 x 21 x 12mm (1.2 x 0.8 x 0.5 inches)\n- **Collector Size**: Ø90 x 29mm (Ø3.5 x 1.1 inches)",
+      "Electrical Safety Guidelines\n\n- **Professional Installation**: Installation must be carried out by a qualified technician to ensure safety and compliance.\n- **Load Limitations**: Connected load must not exceed 30VAC or 2 amps.\n- **Power Precautions**: Disconnect power before installation to avoid risks of electric shock.\n- **Wiring Separation**: Maintain a clear separation between low-voltage and high-voltage field wiring.",
+      "Installation Guide\n\n**Transmitter Installation**: Place the transmitter inside the thermostat wall or cabinet. Follow the provided wiring diagram to connect wires correctly.\n\n**Collector Installation**: Install the collector in a suitable electrical cabinet or another protected location. Ensure all connections are secure and aligned with the wiring diagram.\n\n**System Testing**: Verify proper operation by testing each thermostat control wire (e.g., G, Y, W). Confirm that all signals are accurately transmitted between the thermostat and HVAC units.",
+      "Applications and Use Cases\n\nThe WB1000 is ideal for:\n\n- HVAC system retrofits where additional wiring is required.\n- Upgrading to smart thermostats that require a common wire connection (C-wire).\n- Reducing installation time and minimizing wiring complexity in new system setups.",
+      "Documentation and Resources\n\nTo assist with installation and configuration, the following resources are available:\n\n- Transmitter Installation Guide\n- Collector Installation Guide\n- Testing and Troubleshooting Checklist\n- Wiring Diagrams\n\nFor further assistance, contact WIREBRIDGER's support team at:\n\nPhone: (833) 889-9473 (WIRE)\nEmail: Info@wirebridger.com",
+      "Conclusion\n\nThe WIREBRIDGER WB1000 simplifies HVAC system installations by adding critical wiring capabilities, making it a must-have tool for professionals. Its compatibility with all 24V AC systems, combined with its easy installation process, ensures a smooth experience for both technicians and end-users. Upgrade your HVAC wiring today with the WB1000 and enjoy enhanced system functionality and reliability.",
+    ],
   },
   {
     id: 6,
-    imgSrc: "/assets/images/demo-modern/blog/3.jpg",
-    title: "Spotlight — Equinox Collection by Shane Griffin",
+    imgSrc: "/assets/images/demo-modern/blog/2.png",
+    title: "WIREBRIDGER WB1000: Simplifying HVAC Wiring for Maximum Efficiency",
     date: "November 29, 2023",
+    authorName: "HVAC Insider",
+    content: [
+      "The WIREBRIDGER WB1000 is a cutting-edge wiring solution designed to streamline HVAC installations and upgrades. By adding two additional control wires, it bridges the gap between thermostats and HVAC systems, making it an indispensable tool for professionals working with furnaces, air conditioners, heat pumps, and air handlers.",
+      "Key Features and Benefits\n\n**Versatile System Compatibility**\nDesigned for use with Furnace & Air Conditioner setups, Furnace & Heat Pump combinations, and Air Handler & Heat Pump systems.\n\n**Additional Wiring Support**\nAdds two control wires between the thermostat and HVAC components, allowing for expanded functionality or resolving wiring limitations.\n\n**Quick and Efficient Installation**\nSimplifies the wiring process, reducing time and minimizing errors during installation.\n\n**Wide Voltage Support**\nCompatible with all 24V AC heating and cooling systems.",
+      "Overview of Wiring Configurations\n\nBased on the provided wiring diagrams, the WB1000 can be applied in three typical HVAC system setups:\n\n1. **Furnace & Air Conditioner System**\n   - Yellow (Y): Cooling control\n   - Green (G): Fan control\n   - White (W): Heating control\n   - Red (R): 24V power supply\n   - Purple (P): Additional control signal provided by the WB1000\n   - Black (C): Common wire (optional)\n\n2. **Furnace & Heat Pump System**\n   - Adds Blue (O/B) signal for heat pump mode switching (heating or cooling).\n   - Similar to the Furnace & Air Conditioner setup, Purple (P) and Black (C) are provided by the WB1000.\n\n3. **Air Handler & Heat Pump System**\n   - Supports additional control signals such as Blue (O/B) and Black (C) for more advanced system configurations.\n   - Simplifies connections between the thermostat, air handler, and heat pump, ensuring seamless communication.",
+      "Installation Steps\n\n**Transmitter Installation**:\nPlace the transmitter behind the thermostat or within the control cabinet. Connect wires as per the corresponding wiring diagram for your system type.\n\n**Collector Installation**:\nInstall the collector in a secure electrical cabinet or protected location. Wire it according to the system's requirements, ensuring all connections are tight and properly insulated.\n\n**Testing and Verification**:\nTest each control wire (e.g., G, Y, W) from the thermostat to confirm that signals are correctly transmitted. Verify the operation of additional functions provided by the WB1000, such as heat pump mode switching or fan control.",
+      "Applications\n\nThe WB1000 is perfect for:\n\n- Retrofitting systems where additional wiring is required.\n- Installing smart thermostats that need a common wire (C-wire).\n- Simplifying wiring for complex HVAC configurations.",
+      "Support and Documentation\n\nFor assistance with installation or configuration, the following resources are available:\n\n- Detailed Wiring Diagrams\n- Transmitter and Collector Installation Guides\n- Troubleshooting Manuals\n\nContact WIREBRIDGER for support:\n\nPhone: (833) 889-9473 (WIRE)\nEmail: Info@wirebridger.com",
+      "Conclusion\n\nThe WIREBRIDGER WB1000 is a reliable and efficient solution for HVAC wiring challenges. By providing additional control wires and simplifying installation processes, it enhances system functionality and reduces technician workload. Upgrade your HVAC system wiring with the WB1000 for a seamless, professional experience.",
+    ],
     rellaxSpeed: 1,
     rellaxPercentage: 0.37,
   },

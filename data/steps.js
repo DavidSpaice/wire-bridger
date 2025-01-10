@@ -2,17 +2,17 @@ export const stepsData = [
   {
     number: "1",
     title: "Company Overview",
-    text: "Wire Bridger is a forward-thinking company dedicated to simplifying and modernizing HVAC wiring. We develop intuitive, cost-effective solutions that help both professionals and homeowners overcome complex wiring challenges, ensuring maximum efficiency and reliability."
+    text: "WIREBRIDGER is a forward-thinking company dedicated to simplifying and modernizing HVAC wiring. We develop intuitive, cost-effective solutions that help both professionals and homeowners overcome complex wiring challenges, ensuring maximum efficiency and reliability."
   },
   {
     number: "2",
     title: "Flagship Product: WB 1000",
-    text: "Our WB 1000 device is designed to eliminate the need for extensive rewiring. By adding two extra control wires or providing a common connection (C), it enables seamless integration with most 24VAC HVAC systems—offering a simple, plug-and-play approach to advanced thermostat control."
+    text: "Our WB 1000 device is designed to eliminate the need for extensive rewiring. By adding two extra control wires or providing a common connection (C), it enables seamless integration with most 24VAC HVAC wire systems—offering a simple, plug-and-play approach to advanced thermostat control."
   },
   {
     number: "3",
     title: "Our Mission & Values",
-    text: "At Wire Bridger, our mission is to deliver innovative technology that drives energy efficiency while maintaining user-friendly installation. We value excellence, customer satisfaction, and robust product testing—ensuring our solutions meet high safety and performance standards."
+    text: "At WIREBRIDGER, our mission is to deliver innovative technology that drives energy efficiency while maintaining user-friendly installation. We value excellence, customer satisfaction, and robust product testing—ensuring our solutions meet high safety and performance standards."
   },
   {
     number: "4",

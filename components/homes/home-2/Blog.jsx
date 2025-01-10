@@ -16,6 +16,7 @@ export default function Blog() {
             <span className="section-title-inline">Where?</span> Check our blog
             for the latest WIREBRIDGER updates and HVAC innovations.
           </p>
+          {/* 
           <div className="local-scroll">
             <Link
               href={`/bold-blog`}
@@ -33,6 +34,7 @@ export default function Blog() {
               </span>
             </Link>
           </div>
+          */}
         </div>
       </div>
       {/* Blog Grid */}

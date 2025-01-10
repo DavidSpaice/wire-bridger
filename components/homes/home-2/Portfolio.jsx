@@ -4,10 +4,7 @@ import { portfolios2 } from "@/data/portfolio";
 import Image from "next/image";
 import Link from "next/link";
 
-const filters = [
-  { name: "All Products", category: "all" },
-  { name: "Coming Soon", category: "comingsoon" },
-];
+const filters = [{ name: "All Products", category: "all" }];
 
 export default function Portfolio({ desc }) {
   const [currentCategory, setCurrentCategory] = useState("all");
@@ -30,7 +27,7 @@ export default function Portfolio({ desc }) {
           {desc ? (
             <p className="section-text mb-0">
               <span className="section-title-inline">Hey!</span> Explore our
-              HVAC products that deliver top-tier comfort and efficiency.
+              HVAC wire products that deliver top-tier comfort and efficiency.
             </p>
           ) : (
             <h2 className="section-title-medium font-alt text-outline-cont mt-20 mb-0">

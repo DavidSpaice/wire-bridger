@@ -3,11 +3,11 @@ export const faqs = [
     id: 1,
     question: "01. What are multipurpose controllers?",
     answer:
-      "Multipurpose controllers are advanced devices designed to enhance the functionality of HVAC systems. They allow for the addition or upgrading of equipment without the need to install new wires, streamlining both installations and retrofits.",
+      "Multipurpose controllers are advanced devices designed to enhance the functionality of HVAC wire systems. They allow for the addition or upgrading of equipment without the need to install new wires, streamlining both installations and retrofits.",
   },
   {
     id: 2,
-    question: "02. How do they simplify HVAC installations?",
+    question: "02. How do they simplify HVAC wire installations?",
     answer:
       "These controllers utilize existing wires and are adaptable to various setups, reducing the complexity and labor typically required for system upgrades. This not only makes installations quicker but also more cost-effective.",
   },
@@ -20,9 +20,9 @@ export const faqs = [
   },
   {
     id: 4,
-    question: "04. What are the benefits of using our HVAC solutions?",
+    question: "04. What are the benefits of using our HVAC wire solutions?",
     answer:
-      "Our HVAC solutions offer significant advantages, including reduced installation times, cost savings on materials and labor, and enhanced system compatibility and efficiency, providing value to both installers and property owners.",
+      "Our HVAC wire solutions offer significant advantages, including reduced installation times, cost savings on materials and labor, and enhanced system compatibility and efficiency, providing value to both installers and property owners.",
   },
 ];
 

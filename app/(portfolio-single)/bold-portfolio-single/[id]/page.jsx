@@ -18,8 +18,8 @@ const ParallaxContainer = dynamic(
 
 // Update metadata to reflect your product
 export const metadata = {
-  title: "WIREBRIDGER WB1000 || HVAC Product Details",
-  description: "Detailed information on the WIREBRIDGER WB1000 HVAC solution.",
+  title: "WIREBRIDGER WB1000 || HVAC Wire Product Details",
+  description: "Detailed information on the WIREBRIDGER WB1000 HVAC wire solution.",
 };
 
 export default function BoldPortfolioSinglePage({ params }) {

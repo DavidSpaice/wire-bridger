@@ -6,24 +6,24 @@ export default function ExperienceDark() {
       {/* Marquee Text Line */}
       <div className="marquee marquee-style-2 bg-dark-2">
         <div className="marquee-track marquee-animation-1a">
-          <div>10 Years of experience</div>
-          <div aria-hidden="true">10 Years of experience</div>
-          <div aria-hidden="true">10 Years of experience</div>
-          <div aria-hidden="true">10 Years of experience</div>
-          <div aria-hidden="true">10 Years of experience</div>
-          <div aria-hidden="true">10 Years of experience</div>
-          <div aria-hidden="true">10 Years of experience</div>
-          <div aria-hidden="true">10 Years of experience</div>
-          <div aria-hidden="true">10 Years of experience</div>
-          <div aria-hidden="true">10 Years of experience</div>
-          <div aria-hidden="true">10 Years of experience</div>
-          <div aria-hidden="true">10 Years of experience</div>
-          <div aria-hidden="true">10 Years of experience</div>
-          <div aria-hidden="true">10 Years of experience</div>
-          <div aria-hidden="true">10 Years of experience</div>
-          <div aria-hidden="true">10 Years of experience</div>
-          <div aria-hidden="true">10 Years of experience</div>
-          <div aria-hidden="true">10 Years of experience</div>
+          <div>LIFETIME WARRANTY</div>
+          <div aria-hidden="true">LIFETIME WARRANTY</div>
+          <div aria-hidden="true">LIFETIME WARRANTY</div>
+          <div aria-hidden="true">LIFETIME WARRANTY</div>
+          <div aria-hidden="true">LIFETIME WARRANTY</div>
+          <div aria-hidden="true">LIFETIME WARRANTY</div>
+          <div aria-hidden="true">LIFETIME WARRANTY</div>
+          <div aria-hidden="true">LIFETIME WARRANTY</div>
+          <div aria-hidden="true">LIFETIME WARRANTY</div>
+          <div aria-hidden="true">LIFETIME WARRANTY</div>
+          <div aria-hidden="true">LIFETIME WARRANTY</div>
+          <div aria-hidden="true">LIFETIME WARRANTY</div>
+          <div aria-hidden="true">LIFETIME WARRANTY</div>
+          <div aria-hidden="true">LIFETIME WARRANTY</div>
+          <div aria-hidden="true">LIFETIME WARRANTY</div>
+          <div aria-hidden="true">LIFETIME WARRANTY</div>
+          <div aria-hidden="true">LIFETIME WARRANTY</div>
+          <div aria-hidden="true">LIFETIME WARRANTY</div>
         </div>
       </div>
       {/* End Marquee Text Line */}

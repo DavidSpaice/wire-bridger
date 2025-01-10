@@ -10,9 +10,9 @@ export default function Hero() {
           WIREBRIDGER
         </h2>
         <h1 className="hs-title-4 font-alt mb-60 mb-sm-40">
-          <AnimatedText text="HVAC Innovation Specialists" />
+          <AnimatedText text="HVAC Innovative Wire Solutions" />
           <br />
-          <AnimatedText text=" Based in Canada." />
+          <AnimatedText text="Proudly Canadian Designed." />
         </h1>
         <div
           className="local-scroll wow fadeInUp"
@@ -48,7 +48,7 @@ export default function Hero() {
       {/* End Scroll Down */}
       {/* Status */}
       <div className="hs-status wow fadeInUp" data-wow-offset={0}>
-        Pioneering HVAC Solutions
+        Pioneering HVAC Wire Solutions
       </div>
       {/* End Status */}
     </div>

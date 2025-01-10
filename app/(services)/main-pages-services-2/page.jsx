@@ -81,40 +81,40 @@ export default function MainServicesPage2() {
                 {/* Marquee Text Line */}
                 <div className="marquee marquee-style-2 no-rotate">
                   <div className="marquee-track marquee-animation-1">
-                    <div>10 Years of Experience</div>
-                    <div aria-hidden="true">10 Years of Experience</div>
-                    <div aria-hidden="true">10 Years of Experience</div>
-                    <div aria-hidden="true">10 Years of Experience</div>
-                    <div aria-hidden="true">10 Years of Experience</div>
-                    <div aria-hidden="true">10 Years of Experience</div>
-                    <div aria-hidden="true">10 Years of Experience</div>
-                    <div aria-hidden="true">10 Years of Experience</div>
-                    <div aria-hidden="true">10 Years of Experience</div>
-                    <div aria-hidden="true">10 Years of Experience</div>
-                    <div aria-hidden="true">10 Years of Experience</div>
-                    <div aria-hidden="true">10 Years of Experience</div>
-                    <div aria-hidden="true">10 Years of Experience</div>
-                    <div aria-hidden="true">10 Years of Experience</div>
-                    <div aria-hidden="true">10 Years of Experience</div>
-                    <div aria-hidden="true">10 Years of Experience</div>
-                    <div aria-hidden="true">10 Years of Experience</div>
-                    <div aria-hidden="true">10 Years of Experience</div>
-                    <div aria-hidden="true">10 Years of Experience</div>
-                    <div aria-hidden="true">10 Years of Experience</div>
-                    <div aria-hidden="true">10 Years of Experience</div>
-                    <div aria-hidden="true">10 Years of Experience</div>
-                    <div aria-hidden="true">10 Years of Experience</div>
-                    <div aria-hidden="true">10 Years of Experience</div>
-                    <div aria-hidden="true">10 Years of Experience</div>
-                    <div aria-hidden="true">10 Years of Experience</div>
-                    <div aria-hidden="true">10 Years of Experience</div>
-                    <div aria-hidden="true">10 Years of Experience</div>
-                    <div aria-hidden="true">10 Years of Experience</div>
-                    <div aria-hidden="true">10 Years of Experience</div>
-                    <div aria-hidden="true">10 Years of Experience</div>
-                    <div aria-hidden="true">10 Years of Experience</div>
-                    <div aria-hidden="true">10 Years of Experience</div>
-                    <div aria-hidden="true">10 Years of Experience</div>
+                    <div>LIFETIME WARRANTY</div>
+                    <div aria-hidden="true">LIFETIME WARRANTY</div>
+                    <div aria-hidden="true">LIFETIME WARRANTY</div>
+                    <div aria-hidden="true">LIFETIME WARRANTY</div>
+                    <div aria-hidden="true">LIFETIME WARRANTY</div>
+                    <div aria-hidden="true">LIFETIME WARRANTY</div>
+                    <div aria-hidden="true">LIFETIME WARRANTY</div>
+                    <div aria-hidden="true">LIFETIME WARRANTY</div>
+                    <div aria-hidden="true">LIFETIME WARRANTY</div>
+                    <div aria-hidden="true">LIFETIME WARRANTY</div>
+                    <div aria-hidden="true">LIFETIME WARRANTY</div>
+                    <div aria-hidden="true">LIFETIME WARRANTY</div>
+                    <div aria-hidden="true">LIFETIME WARRANTY</div>
+                    <div aria-hidden="true">LIFETIME WARRANTY</div>
+                    <div aria-hidden="true">LIFETIME WARRANTY</div>
+                    <div aria-hidden="true">LIFETIME WARRANTY</div>
+                    <div aria-hidden="true">LIFETIME WARRANTY</div>
+                    <div aria-hidden="true">LIFETIME WARRANTY</div>
+                    <div aria-hidden="true">LIFETIME WARRANTY</div>
+                    <div aria-hidden="true">LIFETIME WARRANTY</div>
+                    <div aria-hidden="true">LIFETIME WARRANTY</div>
+                    <div aria-hidden="true">LIFETIME WARRANTY</div>
+                    <div aria-hidden="true">LIFETIME WARRANTY</div>
+                    <div aria-hidden="true">LIFETIME WARRANTY</div>
+                    <div aria-hidden="true">LIFETIME WARRANTY</div>
+                    <div aria-hidden="true">LIFETIME WARRANTY</div>
+                    <div aria-hidden="true">LIFETIME WARRANTY</div>
+                    <div aria-hidden="true">LIFETIME WARRANTY</div>
+                    <div aria-hidden="true">LIFETIME WARRANTY</div>
+                    <div aria-hidden="true">LIFETIME WARRANTY</div>
+                    <div aria-hidden="true">LIFETIME WARRANTY</div>
+                    <div aria-hidden="true">LIFETIME WARRANTY</div>
+                    <div aria-hidden="true">LIFETIME WARRANTY</div>
+                    <div aria-hidden="true">LIFETIME WARRANTY</div>
                   </div>
                 </div>
                 {/* End Marquee Text Line */}
