@@ -21,67 +21,43 @@ export const testimonials = [
 
 export const testimonials2 = [
   {
-    id: 1,
-    blockquote:
-      "Wire Bridger made my HVAC installation a breeze. Their wiring solution helped me finish the job in half the time!",
-    author: {
-      name: "John Carter",
-      title: "HVAC Contractor",
-      imgSrc: "/assets/images/user-1.png",
-    },
+    quote: `Wire Bridger made my HVAC installation a breeze. Their wiring solution helped me finish the job in half the time!`,
+    author: "John Carter",
+    role: "HVAC Contractor",
+    image: "/assets/images/user-1.png",
   },
   {
-    id: 2,
-    blockquote:
-      "Upgrading our facility's outdated system was worry-free thanks to Wire Bridger. Everything worked seamlessly, and our energy efficiency improved.",
-    author: {
-      name: "Tracy Williams",
-      title: "Facility Manager",
-      imgSrc: "/assets/images/ts2-user.png",
-    },
+    quote: `Upgrading our facility's outdated system was worry-free thanks to Wire Bridger. Everything worked seamlessly, and our energy efficiency improved.`,
+    author: "Tracy Williams",
+    role: "Facility Manager",
+    image: "/assets/images/ts2-user.png",
   },
   {
-    id: 3,
-    blockquote:
-      "After trying multiple products, Wire Bridger's solution proved the most reliable and cost-effective. We recommend it for any HVAC retrofit.",
-    author: {
-      name: "Samantha Lee",
-      title: "Business Owner",
-      imgSrc: "/assets/images/ts3-user.png",
-    },
+    quote: `After trying multiple products, Wire Bridger's solution proved the most reliable and cost-effective. We recommend it for any HVAC retrofit.`,
+    author: "Samantha Lee",
+    role: "Business Owner",
+    image: "/assets/images/ts3-user.png",
   },
 ];
 
 export const testimonials3 = [
   {
-    id: 1,
-    blockquote:
-      "Wire Bridger made my HVAC installation a breeze. Their wiring solution helped me finish the job in half the time!",
-    author: {
-      name: "John Carter",
-      title: "HVAC Contractor",
-      imgSrc: "/assets/images/ts1-user.jpg",
-    },
+    quote: `Wire Bridger made my HVAC installation a breeze. Their wiring solution helped me finish the job in half the time!`,
+    author: "John Carter",
+    role: "HVAC Contractor",
+    image: "/assets/images/user-1.png",
   },
   {
-    id: 2,
-    blockquote:
-      "Upgrading our facility's outdated system was worry-free thanks to Wire Bridger. Everything worked seamlessly, and our energy efficiency improved.",
-    author: {
-      name: "Tracy Williams",
-      title: "Facility Manager",
-      imgSrc: "/assets/images/ts1-user.jpg",
-    },
+    quote: `Upgrading our facility's outdated system was worry-free thanks to Wire Bridger. Everything worked seamlessly, and our energy efficiency improved.`,
+    author: "Tracy Williams",
+    role: "Facility Manager",
+    image: "/assets/images/ts2-user.png",
   },
   {
-    id: 3,
-    blockquote:
-      "After trying multiple products, Wire Bridger's solution proved the most reliable and cost-effective. We recommend it for any HVAC retrofit.",
-    author: {
-      name: "Samantha Lee",
-      title: "Business Owner",
-      imgSrc: "/assets/images/ts1-user.jpg",
-    },
+    quote: `After trying multiple products, Wire Bridger's solution proved the most reliable and cost-effective. We recommend it for any HVAC retrofit.`,
+    author: "Samantha Lee",
+    role: "Business Owner",
+    image: "/assets/images/ts3-user.png",
   },
 ];
 

@@ -28,7 +28,7 @@ export default function Testimonials() {
             >
               {/* Team item */}
               {testimonials2.map((elm, i) => (
-                <SwiperSlide className="owl-item" key={elm.id}>
+                <SwiperSlide className="owl-item" key={i}>
                   <div className="pb-sm-70">
                     <blockquote className="mb-0">
                       <div className="blockquote-icon" aria-hidden="true">
@@ -40,8 +40,8 @@ export default function Testimonials() {
                           alt=""
                         />
                       </div>
-                      {/* Dynamically insert the quote content */}
-                      <p>{elm.blockquote}</p>
+                      {/* Use 'quote' for the testimonial text */}
+                      <p>{elm.quote}</p>
                       <footer className="ts2-author mt-50 mt-xs-30 clearfix">
                         {/* Author's image */}
                         <div className="ts2-author-img float-start">
@@ -49,14 +49,14 @@ export default function Testimonials() {
                             className="rounded-circle"
                             width={44}
                             height={44}
-                            src={elm.author.imgSrc}
+                            src={elm.image}
                             alt="Image description is here"
                           />
                         </div>
-                        {/* Author's name and title */}
+                        {/* Author's name and role */}
                         <div className="overflow-hidden">
-                          {elm.author.name}
-                          <div className="small">{elm.author.title}</div>
+                          {elm.author}
+                          <div className="small">{elm.role}</div>
                         </div>
                       </footer>
                     </blockquote>
