@@ -49,7 +49,7 @@ export default function Header1({ links }) {
           <LanguageSelect />
           {/* End Languages */}
           <li>
-            <a href="#contact" className="opacity-1 no-hover">
+            <a href="https://www.wirebridger.com/#contact" className="opacity-1 no-hover">
               <span className="link-hover-anim underline" data-link-animate="y">
                 Let's work together
               </span>

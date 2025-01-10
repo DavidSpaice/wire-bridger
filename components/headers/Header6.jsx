@@ -68,7 +68,7 @@ export default function Header6({ links }) {
                 </span>
               </Link>
             ) : (
-              <a href="#contact" className="opacity-1 no-hover">
+              <a href="https://www.wirebridger.com/#contact" className="opacity-1 no-hover">
                 <span
                   className="btn btn-mod btn-w btn-border-c btn-border-white-light btn-small btn-round"
                   data-btn-animate="y"

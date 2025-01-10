@@ -54,7 +54,7 @@ export default function Header10({ links }) {
             </li>
           ) : (
             <li>
-              <a href="#contact" className="opacity-1 no-hover">
+              <a href="https://www.wirebridger.com/#contact" className="opacity-1 no-hover">
                 <span className="link-hover-anim" data-link-animate="y">
                   <span className="icon-ellipse me-1" /> Say hello
                 </span>

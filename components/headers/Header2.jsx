@@ -218,7 +218,10 @@ export default function Header2({ links }) {
         </ul>
         <ul className="items-end clearlist local-scroll">
           <li>
-            <a href="#contact" className="opacity-1 no-hover">
+            <a
+              href="https://www.wirebridger.com/#contact"
+              className="opacity-1 no-hover"
+            >
               <span
                 className="btn btn-mod btn-small btn-border btn-border-white btn-circle ttn"
                 data-btn-animate="y"
