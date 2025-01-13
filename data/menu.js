@@ -209,9 +209,7 @@ export const boldMultipage = [
   { href: "/bold-blog", text: "Blog", active: false },
   { href: "/bold-contact", text: "Contact", active: false },
 ];
-export const boldOnePageProducts = [
-  { href: "/", text: "Home", active: false },
-];
+export const boldOnePageProducts = [{ href: "/", text: "Home", active: false }];
 export const boldMultipageDark = [
   { href: "/bold-multi-page-dark", text: "Home", active: false },
   { href: "/bold-about-dark", text: "About", active: true },
@@ -224,8 +222,8 @@ export const boldMultipageDark = [
 export const boldOnepage = [
   { href: "#home", text: "Home", className: "active" },
   { href: "#about", text: "About" },
-  { href: "#faq", text: "FAQs" },
   { href: "#products", text: "Products" },
+  { href: "#faq", text: "FAQs" },
   { href: "#blog", text: "Blog" },
   { href: "#contact", text: "Contact" },
 ];

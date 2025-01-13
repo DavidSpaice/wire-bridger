@@ -34,7 +34,7 @@ export const blogs1 = [
 export const blogs2 = [
   {
     id: 4,
-    imgSrc: "/assets/images/demo-modern/blog/2.png",
+    imgSrc: "/assets/images/demo-modern/blog/2.jpg",
     title: "Effortless Air Conditioner Upgrades with WIREBRIDGER",
     date: "December 3, 2023",
     authorName: "HVAC Insider", // or whichever author you prefer

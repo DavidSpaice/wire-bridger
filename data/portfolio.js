@@ -149,14 +149,14 @@ export const portfolios2 = [
     link: "bold-portfolio-single.html",
     categories: ["coils", "wiring"],
   },
-  // {
-  //   id: 2,
-  //   imageUrl: "/assets/images/demo-bold/portfolio/coming-soon.png",
-  //   title: "Coming Soon",
-  //   description: "",
-  //   link: "bold-portfolio-single.html",
-  //   categories: ["comingsoon"],
-  // },
+  {
+    id: 2,
+    imageUrl: "/assets/images/demo-bold/portfolio/wb2000.png",
+    title: "WIREBRIDGER WB2000",
+    description: "",
+    link: "bold-portfolio-single.html",
+    categories: ["comingsoon"],
+  },
 ];
 
 export const portfolios3 = [

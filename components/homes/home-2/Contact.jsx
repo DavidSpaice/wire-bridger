@@ -1,6 +1,49 @@
 "use client";
 
+import { useState } from "react";
+
 export default function Contact({ heading }) {
+  const [formData, setFormData] = useState({
+    name: "",
+    email: "",
+    message: "",
+  });
+  const [status, setStatus] = useState("idle");
+  const [feedback, setFeedback] = useState("");
+
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    setFormData((prev) => ({ ...prev, [name]: value }));
+  };
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    setStatus("submitting");
+    setFeedback("");
+
+    try {
+      const res = await fetch("/api/contact", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(formData),
+      });
+
+      if (!res.ok) {
+        throw new Error("Failed to send email");
+      }
+
+      // If success:
+      setStatus("success");
+      setFeedback("Thank you! Your message has been sent.");
+      // Optionally clear the form
+      setFormData({ name: "", email: "", message: "" });
+    } catch (error) {
+      console.error(error);
+      setStatus("error");
+      setFeedback("Oops! Something went wrong. Please try again.");
+    }
+  };
+
   return (
     <div className="container">
       <div className="row">
@@ -18,8 +61,8 @@ export default function Contact({ heading }) {
           </h2>
           <p className="section-text mb-60 mb-md-40 mb-sm-30">
             <span className="section-title-inline">How?</span> Have a question
-            about our HVAC wire solutions? Drop us a line or give us a call. We're
-            always ready to discuss new projects and ideas.
+            about our HVAC wire solutions? Drop us a line or give us a call.
+            We're always ready to discuss new projects and ideas.
           </p>
           <div>
             <a
@@ -43,7 +86,7 @@ export default function Contact({ heading }) {
         <div className="col-lg-7 col-xl-6 offset-xl-1 pt-30 pt-md-0">
           {/* Contact Form */}
           <form
-            onSubmit={(e) => e.preventDefault()}
+            onSubmit={handleSubmit}
             className="form contact-form wow fadeInUp"
             id="contact_form"
           >
@@ -62,6 +105,8 @@ export default function Contact({ heading }) {
                   pattern=".{3,100}"
                   required
                   aria-required="true"
+                  value={formData.name}
+                  onChange={handleChange}
                 />
               </div>
             </div>
@@ -80,6 +125,8 @@ export default function Contact({ heading }) {
                   pattern=".{5,100}"
                   required
                   aria-required="true"
+                  value={formData.email}
+                  onChange={handleChange}
                 />
               </div>
             </div>
@@ -94,7 +141,8 @@ export default function Contact({ heading }) {
                 className="input-sm form-control underline"
                 style={{ height: 120 }}
                 placeholder="Enter your message here"
-                defaultValue={""}
+                value={formData.message}
+                onChange={handleChange}
               />
             </div>
             <div className="row">
@@ -105,11 +153,14 @@ export default function Contact({ heading }) {
                   data-btn-animate="ellipse"
                   id="submit_btn"
                   aria-controls="result"
+                  disabled={status === "submitting"}
                 >
                   <span className="btn-ellipse-inner">
-                    <span className="btn-ellipse-unhovered">Send Message</span>
+                    <span className="btn-ellipse-unhovered">
+                      {status === "submitting" ? "Sending..." : "Send Message"}
+                    </span>
                     <span className="btn-ellipse-hovered" aria-hidden="true">
-                      Send Message
+                      {status === "submitting" ? "Sending..." : "Send Message"}
                     </span>
                   </span>
                 </button>
@@ -124,12 +175,25 @@ export default function Contact({ heading }) {
                 </div>
               </div>
             </div>
+
+            {/* Status/Result message */}
             <div
               id="result"
               role="region"
               aria-live="polite"
               aria-atomic="true"
-            />
+              style={{ marginTop: "1rem" }}
+            >
+              {feedback && (
+                <p
+                  style={{
+                    color: status === "error" ? "red" : "green",
+                  }}
+                >
+                  {feedback}
+                </p>
+              )}
+            </div>
           </form>
           {/* End Contact Form */}
         </div>
