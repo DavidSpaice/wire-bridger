@@ -15,7 +15,7 @@ export default function NewsLetterForm1() {
 
     try {
       // Send POST request to /api/subscribe with the email
-      const response = await fetch("/api/subscribe", {
+      const response = await fetch("https://www.wirebridger.com/api/subscribe", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ email }),

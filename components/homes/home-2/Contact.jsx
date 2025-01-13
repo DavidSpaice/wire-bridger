@@ -22,7 +22,7 @@ export default function Contact({ heading }) {
     setFeedback("");
 
     try {
-      const res = await fetch("/api/contact", {
+      const res = await fetch("https://www.wirebridger.com/api/contact", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(formData),
