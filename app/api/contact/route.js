@@ -19,8 +19,8 @@ export async function POST(request) {
 
     // 3. Define the email options
     await transporter.sendMail({
-      from: `"WireBridger Website" <${process.env.EMAIL_USER}>`, // sender address
-      to: process.env.EMAIL_TO, // recipient (same as user or could be different)
+      from: `"WireBridger Website" ${email}`, // sender address
+      to: "info@wirebridger.com", // recipient (same as user or could be different)
       subject: "New Contact Form Submission",
       html: `
         <h3>You have a new contact form submission:</h3>
