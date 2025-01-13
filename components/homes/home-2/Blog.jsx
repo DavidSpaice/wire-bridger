@@ -14,7 +14,7 @@ export default function Blog() {
           </h2>
           <p className="section-text mb-60 mb-md-40 mb-sm-30">
             <span className="section-title-inline">Where?</span> Check our blog
-            for the latest WIREBRIDGER updates and HVAC innovations.
+            for the latest WIRE BRIDGER updates and HVAC innovations.
           </p>
           {/* 
           <div className="local-scroll">

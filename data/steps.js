@@ -2,7 +2,7 @@ export const stepsData = [
   {
     number: "1",
     title: "Company Overview",
-    text: "WIREBRIDGER is a forward-thinking company dedicated to simplifying and modernizing HVAC wiring. We develop intuitive, cost-effective solutions that help both professionals and homeowners overcome complex wiring challenges, ensuring maximum efficiency and reliability."
+    text: "WIRE BRIDGER is a forward-thinking company dedicated to simplifying and modernizing HVAC wiring. We develop intuitive, cost-effective solutions that help both professionals and homeowners overcome complex wiring challenges, ensuring maximum efficiency and reliability."
   },
   {
     number: "2",
@@ -12,7 +12,7 @@ export const stepsData = [
   {
     number: "3",
     title: "Our Mission & Values",
-    text: "At WIREBRIDGER, our mission is to deliver innovative technology that drives energy efficiency while maintaining user-friendly installation. We value excellence, customer satisfaction, and robust product testing—ensuring our solutions meet high safety and performance standards."
+    text: "At WIRE BRIDGER, our mission is to deliver innovative technology that drives energy efficiency while maintaining user-friendly installation. We value excellence, customer satisfaction, and robust product testing—ensuring our solutions meet high safety and performance standards."
   },
   {
     number: "4",

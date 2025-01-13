@@ -21,19 +21,19 @@ export const testimonials = [
 
 export const testimonials2 = [
   {
-    quote: `WIREBRIDGER made my HVAC installation a breeze. Their wiring solution helped me finish the job in half the time!`,
+    quote: `WIRE BRIDGER made my HVAC installation a breeze. Their wiring solution helped me finish the job in half the time!`,
     author: "John Carter",
     role: "HVAC Contractor",
     image: "/assets/images/user-1.png",
   },
   {
-    quote: `Upgrading our facility's outdated system was worry-free thanks to WIREBRIDGER. Everything worked seamlessly, and our energy efficiency improved.`,
+    quote: `Upgrading our facility's outdated system was worry-free thanks to WIRE BRIDGER. Everything worked seamlessly, and our energy efficiency improved.`,
     author: "Tracy Williams",
     role: "Facility Manager",
     image: "/assets/images/ts2-user.png",
   },
   {
-    quote: `After trying multiple products, WIREBRIDGER's solution proved the most reliable and cost-effective. We recommend it for any HVAC retrofit.`,
+    quote: `After trying multiple products, WIRE BRIDGER's solution proved the most reliable and cost-effective. We recommend it for any HVAC retrofit.`,
     author: "Samantha Lee",
     role: "Business Owner",
     image: "/assets/images/ts3-user.png",
@@ -42,19 +42,19 @@ export const testimonials2 = [
 
 export const testimonials3 = [
   {
-    quote: `WIREBRIDGER made my HVAC installation a breeze. Their wiring solution helped me finish the job in half the time!`,
+    quote: `WIRE BRIDGER made my HVAC installation a breeze. Their wiring solution helped me finish the job in half the time!`,
     author: "John Carter",
     role: "HVAC Contractor",
     image: "/assets/images/user-1.png",
   },
   {
-    quote: `Upgrading our facility's outdated system was worry-free thanks to WIREBRIDGER. Everything worked seamlessly, and our energy efficiency improved.`,
+    quote: `Upgrading our facility's outdated system was worry-free thanks to WIRE BRIDGER. Everything worked seamlessly, and our energy efficiency improved.`,
     author: "Tracy Williams",
     role: "Facility Manager",
     image: "/assets/images/ts2-user.png",
   },
   {
-    quote: `After trying multiple products, WIREBRIDGER's solution proved the most reliable and cost-effective. We recommend it for any HVAC retrofit.`,
+    quote: `After trying multiple products, WIRE BRIDGER's solution proved the most reliable and cost-effective. We recommend it for any HVAC retrofit.`,
     author: "Samantha Lee",
     role: "Business Owner",
     image: "/assets/images/ts3-user.png",

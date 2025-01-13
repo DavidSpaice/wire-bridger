@@ -7,7 +7,7 @@ export default function RelatedProject9() {
   return (
     <div className="container">
       <h2 className="section-title-medium font-alt text-outline-cont mt-20 mb-50 mb-md-30">
-        <span className="text-outline">Next Project</span>
+        <span className="text-outline">Next Product</span>
       </h2>
       {/* Portfolio Item */}
       {portfolios2.slice(4, 5).map((item, index) => (

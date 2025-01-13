@@ -142,20 +142,84 @@ export const portfolios1 = [
 
 export const portfolios2 = [
   {
-    id: 1,
+    id: 1001,
     imageUrl: "/assets/images/demo-bold/portfolio/wb1000.png",
-    title: "WIREBRIDGER WB1000",
-    description: "",
+    title: "WIRE BRIDGER WB1000",
     link: "bold-portfolio-single.html",
     categories: ["coils", "wiring"],
-  },
-  {
-    id: 2,
-    imageUrl: "/assets/images/demo-bold/portfolio/wb2000.png",
-    title: "WIREBRIDGER WB2000",
-    description: "",
-    link: "bold-portfolio-single.html",
-    categories: ["comingsoon"],
+    images: [
+      {
+        src: "/assets/images/demo-bold/portfolio/wb1000.png",
+        alt: "Wire Bridger WB1000 Diagram",
+      },
+      {
+        src: "/assets/images/demo-bold/portfolio/wb2000.png",
+        alt: "Wire Bridger Secondary Image",
+      },
+      {
+        src: "/assets/images/demo-bold/portfolio/1.png",
+        alt: "Wire Bridger Third Angle",
+      },
+      // Add more images as needed
+    ],
+    tabs: {
+      description: {
+        functionsTitle: "Functions",
+        functionsList: [
+          "WB1000 adds two additional control wires between a thermostat and indoor or outdoor unit.",
+          "Works with all 24V AC heating and cooling systems.",
+          "Can be used to provide a common connection (C).",
+        ],
+        overviewTitle: "Overview",
+        overviewText: `The WIRE BRIDGER WB1000 is an all-in-one HVAC wiring solution designed
+        to reduce installation time and simplify system upgrades. It offers
+        versatile configuration options for seamless retrofits, ensuring
+        optimal performance in new or existing HVAC setups.`,
+      },
+      specifications: {
+        technicalSpecsTitle: "Technical Specifications",
+        technicalSpecsList: [
+          "Transformer Voltage: 22-28V",
+          "Switch Current: 2A",
+          "Max Distance: 30m / 1181.1in",
+          "Transmitter Size: 30 x 21 x 12mm (1.2 x 0.8 x 0.5in)",
+          "Collector Size: Ø90 x 29mm (Ø3.5 x 1.1in)",
+        ],
+        safetyTitle: "Electrical Safety",
+        safetyList: [
+          "Installation must be performed by a qualified technician.",
+          "Connected load must not exceed 30VAC or 2 amps.",
+          "Disconnect power before installation to avoid electric shock.",
+          "Separate low-voltage field wiring from high-voltage wiring.",
+        ],
+      },
+      documents: {
+        installationTitle: "Installation & Manuals",
+        installationIntro: `Below are resources to help you install and configure the WB1000:`,
+        installationSteps: [
+          {
+            label: "Transmitter Installation",
+            description:
+              "Place inside thermostat wall or cabinet. Connect to wires accordingly.",
+          },
+          {
+            label: "Collector Installation",
+            description:
+              "Install inside a suitable electrical cabinet or protected location. Connect wires according to wiring diagram.",
+          },
+          {
+            label: "Testing",
+            description:
+              "Check each thermostat control (G, Y, W, etc.) to verify proper operation.",
+          },
+          {
+            label: "Contact & Support",
+            description:
+              "For assistance, call (833)889-9473 (WIRE) or email Info@wirebridger.com.",
+          },
+        ],
+      },
+    },
   },
 ];
 

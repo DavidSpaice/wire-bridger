@@ -6,26 +6,38 @@ import Image from "next/image";
 import { boldOnePageProducts } from "@/data/menu";
 import dynamic from "next/dynamic";
 import React from "react";
+import Link from "next/link";
 import { allPortfolios } from "@/data/portfolio";
+import { portfolios2 } from "@/data/portfolio";
 
 // Parallax container dynamic import
 const ParallaxContainer = dynamic(
   () => import("@/components/common/ParallaxContainer"),
-  {
-    ssr: false,
-  }
+  { ssr: false }
 );
 
-// Update metadata to reflect your product
 export const metadata = {
-  title: "WIREBRIDGER WB1000 || HVAC Wire Product Details",
-  description: "Detailed information on the WIREBRIDGER WB1000 HVAC wire solution.",
+  title: "WIRE BRIDGER WB1000 || HVAC Wire Product Details",
+  description:
+    "Detailed information on the WIRE BRIDGER WB1000 HVAC wire solution.",
 };
 
 export default function BoldPortfolioSinglePage({ params }) {
   // Retrieve product item based on ID or default to first if no match
   const portfolioItem =
     allPortfolios.filter((elm) => elm.id == params.id)[0] || allPortfolios[0];
+
+  // De-structure tab content to simplify usage
+  const { description, specifications, documents } = portfolioItem?.tabs || {};
+
+  const currentIndex = portfolios2.findIndex(
+    (item) => item.id === portfolioItem.id
+  );
+
+  if (currentIndex === -1) {
+  }
+
+  const isLastItem = currentIndex === portfolios2.length - 1;
 
   return (
     <div className="theme-bold">
@@ -35,14 +47,11 @@ export default function BoldPortfolioSinglePage({ params }) {
           <Header2 links={boldOnePageProducts} />
         </nav>
 
-        {/* Main Content */}
         <main id="main">
           {/* Parallax Header Section */}
           <ParallaxContainer
             className="page-section bg-dark-alpha-30 parallax-5 light-content"
-            style={{
-              backgroundColor: "#111111",
-            }}
+            style={{ backgroundColor: "#111111" }}
             id="home"
           >
             <div className="container position-relative pt-sm-40">
@@ -52,13 +61,12 @@ export default function BoldPortfolioSinglePage({ params }) {
                     className="wow charsAnimInLong-1"
                     data-splitting="chars"
                   >
-                    <AnimatedText text="WIREBRIDGER WB1000" />
+                    <AnimatedText text={portfolioItem.title} />
                   </span>
                 </h1>
               </div>
             </div>
           </ParallaxContainer>
-
           {/* Product Details Section with Tabs */}
           <section className="page-section pt-50 pb-50">
             <div className="container position-relative">
@@ -122,28 +130,24 @@ export default function BoldPortfolioSinglePage({ params }) {
                       role="tabpanel"
                       aria-labelledby="description-tab"
                     >
-                      <h2 className="h4 mb-3">Functions</h2>
-                      <ul>
-                        <li>
-                          WB1000 adds two additional control wires between a
-                          thermostat and indoor or outdoor unit.
-                        </li>
-                        <li>
-                          Works with all 24V AC heating and cooling systems.
-                        </li>
-                        <li>
-                          Can be used to provide a common connection (<b>C</b>
-                          ).
-                        </li>
-                      </ul>
-                      <h2 className="h4 mb-3 mt-4">Overview</h2>
-                      <p>
-                        The WIREBRIDGER WB1000 is an all-in-one HVAC wiring
-                        solution designed to reduce installation time and
-                        simplify system upgrades. It offers versatile
-                        configuration options for seamless retrofits, ensuring
-                        optimal performance in new or existing HVAC setups.
-                      </p>
+                      {/* If your data is nested, check for existence before mapping */}
+                      {description && (
+                        <>
+                          <h2 className="h4 mb-3">
+                            {description.functionsTitle}
+                          </h2>
+                          <ul>
+                            {description.functionsList?.map((item, idx) => (
+                              <li key={idx}>{item}</li>
+                            ))}
+                          </ul>
+
+                          <h2 className="h4 mb-3 mt-4">
+                            {description.overviewTitle}
+                          </h2>
+                          <p>{description.overviewText}</p>
+                        </>
+                      )}
                     </div>
 
                     {/* Specifications Tab */}
@@ -153,33 +157,29 @@ export default function BoldPortfolioSinglePage({ params }) {
                       role="tabpanel"
                       aria-labelledby="specs-tab"
                     >
-                      <h2 className="h4 mb-3">Technical Specifications</h2>
-                      <ul>
-                        <li>Transformer Voltage: 22-28V</li>
-                        <li>Switch Current: 2A</li>
-                        <li>Max Distance: 30m / 1181.1in</li>
-                        <li>
-                          Transmitter Size: 30 x 21 x 12mm (1.2 x 0.8 x 0.5in)
-                        </li>
-                        <li>Collector Size: Ø90 x 29mm (Ø3.5 x 1.1in)</li>
-                      </ul>
+                      {specifications && (
+                        <>
+                          <h2 className="h4 mb-3">
+                            {specifications.technicalSpecsTitle}
+                          </h2>
+                          <ul>
+                            {specifications.technicalSpecsList?.map(
+                              (spec, idx) => (
+                                <li key={idx}>{spec}</li>
+                              )
+                            )}
+                          </ul>
 
-                      <h2 className="h4 mb-3 mt-4">Electrical Safety</h2>
-                      <ul>
-                        <li>
-                          Installation must be performed by a qualified
-                          technician.
-                        </li>
-                        <li>Connected load must not exceed 30VAC or 2 amps.</li>
-                        <li>
-                          Disconnect power before installation to avoid electric
-                          shock.
-                        </li>
-                        <li>
-                          Separate low-voltage field wiring from high-voltage
-                          wiring.
-                        </li>
-                      </ul>
+                          <h2 className="h4 mb-3 mt-4">
+                            {specifications.safetyTitle}
+                          </h2>
+                          <ul>
+                            {specifications.safetyList?.map((safety, idx) => (
+                              <li key={idx}>{safety}</li>
+                            ))}
+                          </ul>
+                        </>
+                      )}
                     </div>
 
                     {/* Documents Tab */}
@@ -189,72 +189,90 @@ export default function BoldPortfolioSinglePage({ params }) {
                       role="tabpanel"
                       aria-labelledby="documents-tab"
                     >
-                      <h2 className="h4 mb-3">Installation &amp; Manuals</h2>
-                      <p>
-                        Below are resources to help you install and configure
-                        the WB1000:
-                      </p>
-                      <ul>
-                        <li>
-                          <strong>Transmitter Installation</strong>: Place
-                          inside thermostat wall or cabinet. Connect to wires
-                          accordingly.
-                        </li>
-                        <li>
-                          <strong>Collector Installation</strong>: Install
-                          inside a suitable electrical cabinet or protected
-                          location. Connect wires according to wiring diagram.
-                        </li>
-                        <li>
-                          <strong>Testing</strong>: Check each thermostat
-                          control (G, Y, W, etc.) to verify proper operation.
-                        </li>
-                        <li>
-                          <strong>Contact &amp; Support</strong>: For any
-                          assistance, call <b>(833)889-9473 (WIRE)</b> or email{" "}
-                          <b>Info@wirebridger.com</b>
-                        </li>
-                      </ul>
+                      {documents && (
+                        <>
+                          <h2 className="h4 mb-3">
+                            {documents.installationTitle}
+                          </h2>
+                          <p>{documents.installationIntro}</p>
+                          <ul>
+                            {documents.installationSteps?.map((step, idx) => (
+                              <li key={idx}>
+                                <strong>{step.label}</strong>:{" "}
+                                {step.description}
+                              </li>
+                            ))}
+                          </ul>
+                        </>
+                      )}
                     </div>
                   </div>
                 </div>
 
                 {/* RIGHT COLUMN: Product Images */}
+                {/* RIGHT COLUMN: Product Images */}
                 <div className="col-md-7">
                   <div className="mb-n30">
-                    {/* Example images — replace with actual product images */}
-                    <div className="mb-30 wow fadeInUp" data-wow-offset={0}>
-                      <Image
-                        src="/assets/images/demo-bold/portfolio/wb1000.png"
-                        alt="WIREBRIDGER WB1000 - Diagram"
-                        width={1200}
-                        height={819}
-                      />
-                    </div>
-                    <div className="mb-30 wow fadeInUp">
-                      <Image
-                        src="/assets/images/demo-bold/portfolio/1.png"
-                        alt="WIREBRIDGER WB1000 - Image 2"
-                        width={1200}
-                        height={819}
-                      />
-                    </div>
+                    {portfolioItem?.images?.map((img, idx) => (
+                      <div
+                        className="mb-30 wow fadeInUp"
+                        data-wow-offset={0}
+                        key={idx}
+                      >
+                        <Image
+                          src={img.src}
+                          alt={img.alt}
+                          width={1200}
+                          height={819}
+                        />
+                      </div>
+                    ))}
                   </div>
                 </div>
               </div>
             </div>
           </section>
-
           {/* Divider */}
           <hr className="black mt-0 mb-0" />
-
           {/* Related Products (Optional) */}
+          {/*
           <section className="page-section">
             <RelatedProject9 />
           </section>
+          */}
+          <section className="page-section">
+            {portfolios2.length > 1 ? (
+              // If we have more than one item in portfolios2
+              !isLastItem ? (
+                // If it's not the last item, show a "Next Product" button
+                <Link
+                  href={`https://www.wirebridger.com/bold-portfolio-single/${
+                    portfolios2[currentIndex + 1].id
+                  }`}
+                >
+                  <h2 className="section-title-medium font-alt text-outline-cont mt-20 mb-50 mb-md-30">
+                    <span className="text-outline">Next Product</span>
+                  </h2>
+                </Link>
+              ) : (
+                // If it is the last item, show "Back to Home"
+                <Link href={"/"}>
+                  <h2 className="section-title-medium font-alt text-outline-cont mt-20 mb-50 mb-md-30">
+                    <span className="text-outline">Back to Home</span>
+                  </h2>
+                </Link>
+              )
+            ) : (
+              // If portfolios2.length is 1 or 0, show "Back to Home" button
+              <Link href={"/"}>
+                <h2 className="section-title-medium font-alt text-outline-cont mt-20 mb-50 mb-md-30">
+                  <span className="text-outline">Back to Home</span>
+                </h2>
+              </Link>
+            )}
+          </section>
         </main>
 
-        {/* Footer */}
         <footer className="footer-1 bg-dark-1 light-content">
           <Footer2 />
         </footer>
