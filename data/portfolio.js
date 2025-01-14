@@ -218,6 +218,7 @@ export const portfolios2 = [
               "For assistance, call (833)889-9473 (WIRE) or email Info@wirebridger.com.",
           },
         ],
+        manualLink: "/assets/images/demo-bold/portfolio/wb1000-manual.pdf",
       },
     },
   },

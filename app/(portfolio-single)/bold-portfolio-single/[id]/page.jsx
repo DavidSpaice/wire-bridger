@@ -203,6 +203,14 @@ export default function BoldPortfolioSinglePage({ params }) {
                               </li>
                             ))}
                           </ul>
+                          {/* PDF Manual Link */}
+                          {documents.manualLink && (
+                            <div className="mt-4">
+                              <Link href={documents.manualLink} passHref target="_blank">
+                                Download Manual (PDF)
+                              </Link>
+                            </div>
+                          )}
                         </>
                       )}
                     </div>
