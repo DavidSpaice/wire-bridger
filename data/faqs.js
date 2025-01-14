@@ -24,6 +24,12 @@ export const faqs = [
     answer:
       "Our HVAC wire solutions offer significant advantages, including reduced installation times, cost savings on materials and labor, and enhanced system compatibility and efficiency, providing value to both installers and property owners.",
   },
+  {
+    id: 5,
+    question: "05. What thermostats are compatible with Wire bridger?",
+    answer:
+      "Wire bridger is compatible with all 24V HVAC thermostats, Common thermostats and smart thermostats are compatible. To ensure full compatibility, it's recommended to check the installation manual or product specifications for both your system and the thermostat you are considering. You can also contact us for a specific compatibility check.",
+  },
 ];
 
 export const faqDataMain = [
