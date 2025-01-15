@@ -43,9 +43,9 @@ export default function Home2({ onePage = false, dark = false }) {
                   <span className="text-outline">About</span>
                 </h2>
                 <p className="section-text mb-60 mb-md-40 mb-sm-30">
-                  <span className="section-title-inline">Who?</span> At
-                  WIRE BRIDGER, we specialize in providing innovative solutions
-                  to enhance and simplify HVAC wire system upgrades and retrofits.
+                  <span className="section-title-inline">Who?</span> At WIRE
+                  BRIDGER, we specialize in providing innovative solutions to
+                  enhance and simplify HVAC wire system upgrades and retrofits.
                   Our products are designed to improve the efficiency and
                   functionality of existing systems, making us a key player in
                   the HVAC industry. We focus on delivering high-quality
@@ -104,6 +104,17 @@ export default function Home2({ onePage = false, dark = false }) {
         } `}
         id="awards"
       ></section>
+      <hr
+        className={`${dark ? "white opacity-015" : "black"} black mt-0 mb-0"`}
+      />
+      <section
+        className={`page-section  scrollSpysection  ${
+          dark ? "bg-dark-1 light-content" : ""
+        } `}
+        id="products"
+      >
+        <Portfolio />
+      </section>
       <hr
         className={`${dark ? "white opacity-015" : "black"} black mt-0 mb-0"`}
       />
@@ -187,17 +198,6 @@ export default function Home2({ onePage = false, dark = false }) {
           <Services />
           {/* End Steps */}
         </div>
-      </section>
-      <hr
-        className={`${dark ? "white opacity-015" : "black"} black mt-0 mb-0"`}
-      />
-      <section
-        className={`page-section  scrollSpysection  ${
-          dark ? "bg-dark-1 light-content" : ""
-        } `}
-        id="products"
-      >
-        <Portfolio />
       </section>
       <hr
         className={`${dark ? "white opacity-015" : "black"} black mt-0 mb-0"`}
