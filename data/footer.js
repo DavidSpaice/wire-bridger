@@ -13,16 +13,16 @@ export const footerLinks2 = [
 
 export const socialLinks = [
   {
-    href: "#",
+    href: "https://www.instagram.com/wirebridger/",
     text: "Instagram",
   },
   {
-    href: "#",
+    href: "https://www.facebook.com/WiseBridger",
     text: "Facebook",
   },
   {
-    href: "#",
-    text: "YouTube",
+    href: "https://x.com/WireBridger",
+    text: "X",
   },
   {
     href: "#",
