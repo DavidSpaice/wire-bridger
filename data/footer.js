@@ -25,7 +25,7 @@ export const socialLinks = [
     text: "X",
   },
   {
-    href: "#",
+    href: "https://www.linkedin.com/company/wirebridger/",
     text: "LinkedIn",
   },
 ];
