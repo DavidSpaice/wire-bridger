@@ -170,8 +170,14 @@ export default function Contact({ heading }) {
                 <div className="form-tip pt-30 pt-sm-20">
                   <i className="icon-info size-16" />
                   All the fields are required. By sending the form you agree to
-                  the <a href="#">Terms &amp; Conditions</a> and{" "}
-                  <a href="#">Privacy Policy</a>.
+                  the{" "}
+                  <a
+                    href="https://wirebridger.com/data/2025_Wire_Bridger_Terms_and_Conditions_and_Privacy_Policy.pdf"
+                    target="_blank"
+                  >
+                    Terms &amp; Conditions and Privacy Policy
+                  </a>
+                  .
                 </div>
               </div>
             </div>

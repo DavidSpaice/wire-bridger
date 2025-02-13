@@ -59,8 +59,14 @@ export default function Footer2() {
       <div className="footer-text text-center mt-n10 pb-50">
         Made with dedication at WIRE BRIDGER.
         <div className="small">
-          Read <a href="#">Terms &amp; Conditions</a> and{" "}
-          <a href="#">Privacy Policy</a>.
+          Read{" "}
+          <a
+            href="https://wirebridger.com/data/2025_Wire_Bridger_Terms_and_Conditions_and_Privacy_Policy.pdf"
+            target="_blank"
+          >
+            Terms &amp; Conditions and Privacy Policy
+          </a>
+          .
         </div>
       </div>
       {/* End Footer Text */}
