@@ -61,7 +61,7 @@ export default function Footer2() {
         <div className="small">
           Read{" "}
           <a
-            href="https://wirebridger.com/data/2025_Wire_Bridger_Terms_and_Conditions_and_Privacy_Policy.pdf"
+            href="/2025_Wire_Bridger_Terms_and_Conditions_and_Privacy_Policy.pdf"
             target="_blank"
           >
             Terms &amp; Conditions and Privacy Policy

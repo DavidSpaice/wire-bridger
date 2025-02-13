@@ -172,7 +172,7 @@ export default function Contact({ heading }) {
                   All the fields are required. By sending the form you agree to
                   the{" "}
                   <a
-                    href="https://wirebridger.com/data/2025_Wire_Bridger_Terms_and_Conditions_and_Privacy_Policy.pdf"
+                    href="/2025_Wire_Bridger_Terms_and_Conditions_and_Privacy_Policy.pdf"
                     target="_blank"
                   >
                     Terms &amp; Conditions and Privacy Policy
