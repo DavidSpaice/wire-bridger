@@ -80,7 +80,7 @@ export default function Header2({ links }) {
                       margin: 0,
                     }}
                   >
-                    WIRE BRIDGER
+                    WIRE &nbsp;BRIDGER
                   </h1>{" "}
                 </div>
                 <div className="light-mode-logo" style={{ width: "100%" }}>
@@ -153,7 +153,7 @@ export default function Header2({ links }) {
                       margin: 0,
                     }}
                   >
-                    WIRE BRIDGER
+                    WIRE &nbsp;BRIDGER
                   </h1>{" "}
                 </div>
                 <div className="dark-mode-logo" style={{ width: "100%" }}>
