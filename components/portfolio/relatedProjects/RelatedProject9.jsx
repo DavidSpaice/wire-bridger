@@ -22,7 +22,7 @@ export default function RelatedProject9() {
               <>
                 <div className="col-md-8 mb-sm-30 order-md-first">
                   <div className="portfolio-2-image">
-                    <Link href={`/bold-portfolio-single/${item.id}`}>
+                    <Link href={`/product/${item.id}`}>
                       <Image
                         width={1200}
                         height={819}
@@ -35,14 +35,14 @@ export default function RelatedProject9() {
                 <div className={`col-md-4  `}>
                   <hr className="black thick mt-0 mb-20 d-none d-md-block" />
                   <h3 className="portfolio-2-title font-alt mb-20">
-                    <Link href={`/bold-portfolio-single/${item.id}`}>
+                    <Link href={`/product/${item.id}`}>
                       {item.title}
                     </Link>
                   </h3>
                   <p className="portfolio-2-descr">{item.description}</p>
                   <div>
                     <Link
-                      href={`/bold-portfolio-single/${item.id}`}
+                      href={`/product/${item.id}`}
                       className="link-hover-anim underline align-middle"
                       data-link-animate="y"
                     >
@@ -64,14 +64,14 @@ export default function RelatedProject9() {
                 <div className={`col-md-4`}>
                   <hr className="black thick mt-0 mb-20 d-none d-md-block" />
                   <h3 className="portfolio-2-title font-alt mb-20">
-                    <Link href={`/bold-portfolio-single/${item.id}`}>
+                    <Link href={`/product/${item.id}`}>
                       {item.title}
                     </Link>
                   </h3>
                   <p className="portfolio-2-descr">{item.description}</p>
                   <div>
                     <Link
-                      href={`/bold-portfolio-single/${item.id}`}
+                      href={`/product/${item.id}`}
                       className="link-hover-anim underline align-middle"
                       data-link-animate="y"
                     >
@@ -93,7 +93,7 @@ export default function RelatedProject9() {
                   } `}
                 >
                   <div className="portfolio-2-image">
-                    <Link href={`/bold-portfolio-single/${item.id}`}>
+                    <Link href={`/product/${item.id}`}>
                       <Image
                         width={1200}
                         height={819}

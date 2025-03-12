@@ -145,7 +145,7 @@ export const portfolios2 = [
     id: 1001,
     imageUrl: "/assets/images/demo-bold/portfolio/wb1000.png",
     title: "WIRE BRIDGER WB1000",
-    link: "bold-portfolio-single.html",
+    link: "product.html",
     categories: ["coils", "wiring"],
     images: [
       {

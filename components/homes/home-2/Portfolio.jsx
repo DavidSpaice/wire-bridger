@@ -74,7 +74,7 @@ export default function Portfolio({ desc }) {
                         href={
                           item.categories.includes("comingsoon")
                             ? "#"
-                            : `/bold-portfolio-single/${item.id}`
+                            : `/product/${item.id}`
                         }
                       >
                         <Image
@@ -93,7 +93,7 @@ export default function Portfolio({ desc }) {
                       {item.categories.includes("comingsoon") ? (
                         <span>{item.title}</span>
                       ) : (
-                        <Link href={`/bold-portfolio-single/${item.id}`}>
+                        <Link href={`/product/${item.id}`}>
                           {item.title}
                         </Link>
                       )}
@@ -105,7 +105,7 @@ export default function Portfolio({ desc }) {
                         <span>Coming Soon</span>
                       ) : (
                         <Link
-                          href={`/bold-portfolio-single/${item.id}`}
+                          href={`/product/${item.id}`}
                           className="link-hover-anim underline align-middle"
                           data-link-animate="y"
                         >
@@ -132,7 +132,7 @@ export default function Portfolio({ desc }) {
                       {item.categories.includes("comingsoon") ? (
                         <span>{item.title}</span>
                       ) : (
-                        <Link href={`/bold-portfolio-single/${item.id}`}>
+                        <Link href={`/product/${item.id}`}>
                           {item.title}
                         </Link>
                       )}
@@ -144,7 +144,7 @@ export default function Portfolio({ desc }) {
                         <span>Coming Soon</span>
                       ) : (
                         <Link
-                          href={`/bold-portfolio-single/${item.id}`}
+                          href={`/product/${item.id}`}
                           className="link-hover-anim underline align-middle"
                           data-link-animate="y"
                         >
@@ -172,7 +172,7 @@ export default function Portfolio({ desc }) {
                         href={
                           item.categories.includes("comingsoon")
                             ? "#"
-                            : `/bold-portfolio-single/${item.id}`
+                            : `/product/${item.id}`
                         }
                       >
                         <Image

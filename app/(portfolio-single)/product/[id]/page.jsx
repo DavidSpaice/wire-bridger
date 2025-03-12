@@ -254,7 +254,7 @@ export default function BoldPortfolioSinglePage({ params }) {
               !isLastItem ? (
                 // If it's not the last item, show a "Next Product" button
                 <Link
-                  href={`https://www.wirebridger.com/bold-portfolio-single/${
+                  href={`https://www.wirebridger.com/product/${
                     portfolios2[currentIndex + 1].id
                   }`}
                 >
