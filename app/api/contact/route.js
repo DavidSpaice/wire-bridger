@@ -5,6 +5,7 @@ export async function POST(request) {
   try {
     // 1. Parse form data from request body
     const { name, email, message } = await request.json();
+    console.log("name", name, "email", email, "message", message);
 
     // 2. Create Nodemailer transporter (retrieve all from env)
     const transporter = nodemailer.createTransport({
